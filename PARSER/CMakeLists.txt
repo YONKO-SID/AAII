@@ -1,5 +1,6 @@
 # Bump version here if you change it
 set(PARSER_VERSION 0.1.0)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 add_library(AAIIParser INTERFACE)
 target_include_directories(AAIIParser INTERFACE ${CMAKE_CURRENT_SOURCE_DIR}/Include)
